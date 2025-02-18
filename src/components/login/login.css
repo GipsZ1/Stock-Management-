@@ -1,0 +1,55 @@
+* {
+  border: 0;
+}
+.login {
+  min-width: 300px;
+  max-width: 400px;
+  margin: 2em auto;
+  background: #fff;
+  width: 50%;
+  padding: 1em;
+  border-radius: 1em;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0.6em 0;
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 1em 1.5em;
+  margin: 0.4em 0;
+  border-radius: 1em;
+  border: 1px solid #0b3899;
+}
+input::placeholder {
+  font-weight: 500;
+  color: #0b3899;
+}
+button {
+  width: 70%;
+  background: #0b3899;
+  padding: 0.8em 1.5em;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 1em 0;
+  border-radius: 1em;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+p {
+  font-size: 0.8rem;
+}
+p span {
+  font-weight: 600;
+  color: #0b3899;
+  text-decoration: none;
+}

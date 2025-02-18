@@ -1,0 +1,44 @@
+
+*{
+    padding: 0;
+    outline: 0;
+}
+nav {
+    margin: 1.2em auto;
+    background-color: #0b3899;
+    padding: 1.5em ;
+    border-radius: 1em;
+    width: 90%;
+    
+  }
+  
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul div{
+    display: flex;
+  }
+  
+
+  nav ul li {
+    margin: 0 1em;
+  }
+  
+
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5em 1em;
+    transition: all ease-in 1s;
+  }
+  nav ul li a:hover {
+    font-weight: 600;
+    color: #fff;
+  }
+  
