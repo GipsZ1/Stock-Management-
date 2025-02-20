@@ -1,0 +1,9 @@
+.productFrom {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.from-container {
+  margin-top: 3em;
+}

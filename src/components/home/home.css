@@ -1,9 +1,11 @@
 .hero {
+  width: 75%;
+  margin-left: 20em;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1em 4em;
-  min-height: 90vh;
+
+  min-height: 80vh;
 }
 
 .hero_context {

@@ -1,44 +1,35 @@
-
-*{
-    padding: 0;
-    outline: 0;
+.navbar {
+  background-color: #0b3899;
+  color: white;
+  padding: 1.5em;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: fixed;  /* Keeps the navbar fixed at the top */
+  top: 0;           /* Position it at the very top */
+  width: 100%;      /* Make it span the entire width */
+  z-index: 1000;    /* Ensures it stays above other content */
 }
-nav {
-    margin: 1.2em auto;
-    background-color: #0b3899;
-    padding: 1.5em ;
-    border-radius: 1em;
-    width: 90%;
-    
-  }
-  
 
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  nav ul div{
-    display: flex;
-  }
-  
+.nav-content ul {
+  list-style: none;
+  display: flex;
+}
 
-  nav ul li {
-    margin: 0 1em;
-  }
-  
+.nav-content ul li {
+  margin-left: 20px;
+}
 
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1rem;
-    padding: .5em 1em;
-    transition: all ease-in 1s;
-  }
-  nav ul li a:hover {
-    font-weight: 600;
-    color: #fff;
-  }
-  
+.nav-content ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-content ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Add padding to the body to prevent content from hiding behind the navbar */
+body {
+  padding-top: 60px; /* Adjust based on your navbar height */
+}
